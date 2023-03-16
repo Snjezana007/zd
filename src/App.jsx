@@ -13,11 +13,11 @@ class App extends Component {
   pageHandler = () => {
     if (this.state.page === "Home") {
       this.setState({
-        page: "About"
+        page: "Snježana"
       })
     } else {
       this.setState({
-        page: "Home"
+        page: "Mikša"
       })
     }
   }
